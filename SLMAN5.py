@@ -1,8 +1,3 @@
-response = requests.get(url)
-code = response.text
-
-
-exec(code)
 tr,fa,er=0,0,0
 class ttsign:
     def __init__(self, params: str, data: str, cookies: str) -> None:
